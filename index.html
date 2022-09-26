@@ -4,48 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Common CSS Properties</title>
-    <link link rel="stylesheet" href="styles.css">
+    <title>Website Style Guide - Calm Theme</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h2>Common CSS Properties</h2>
-
-<table>
-  <tr>
-    <th>Property</th>
-    <th>What It's Used For</th>
-    <th>Example</th>
-  </tr>
-  <tr>
-    <td>Color</td>
-    <td>Changing the foreground color such as text</td>
-    <td><code>color: #000000;</code></td>
-  </tr>
-  <tr>
-    <td>Font Size</td>
-    <td>Changing the size of the displayed text</td>
-    <td><code>font-size: 14px;</code></td>
-  </tr>
-  <tr>
-    <td>Background Color</td>
-    <td>Changes the background color of an element</td>
-    <td><code>background-color: #FFFFFF;</code></td>
-  </tr>
-  <tr>
-    <td>Height/Width</td>
-    <td>Adjusts the height and width of an element</td>
-    <td><code>height: 25px; width: 30px;</code></td>
-  </tr>
-  <tr>
-    <td>Border</td>
-    <td>Assigns border properties to an element</td>
-    <td><code>border: 5px solid #FF6DBA;</code></td>
-  </tr>
-  <tr>
-    <td>Border Radius</td>
-    <td>Rounds out the corners of an element</td>
-    <td><code>border-radius: 25px;</code></td>
-  </tr>
-</table>
+    <h1 class="main-title">Website Style Guide - Calm Theme</h1>
+    <div class="container">
+      <h2>Colors</h2>
+      <div class="color-container">
+        <div class="color-panel color-1">
+          <p class="color-label" >September Lawn</p>
+          <p class="color-hex">#487a5f</p>
+        </div>
+        <div class="color-panel color-2">
+          <p class="color-label" >Harvest Wheat</p>
+          <p class="color-hex">#d3a42d</p>
+        </div>
+        <div class="color-panel color-3">
+          <p class="color-label" >Yoga Blue</p>
+          <p class="color-hex">#6471b8</p>
+        </div>
+        <div class="color-panel color-4">
+          <p class="color-label" >Deep Sea</p>
+          <p class="color-hex">#288888</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Fonts</h2>
+      <div class="font-container">
+        <div class="font-panel">
+          <p class="font-label source-sans-pro">Source Sans Pro</p>
+          <p class="regular source-sans-pro">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold source-sans-pro">The quick brown fox jumps over the lazy dog.</p>
+          <p class="italic source-sans-pro">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-panel">
+          <p class="font-label plus-jakarta-sans">Plus Jakarta Sans</p>
+          <p class="regular plus-jakarta-sans">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold plus-jakarta-sans">The quick brown fox jumps over the lazy dog.</p>
+          <p class="italic plus-jakarta-sans">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-panel">
+          <p class="font-label josefin-sans">Josefin Sans</p>
+          <p class="regular josefin-sans">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold josefin-sans">The quick brown fox jumps over the lazy dog.</p>
+          <p class="italic josefin-sans">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Text Styles</h2>
+      <div class="text-container">
+        <div class="text-panel">
+          <h1>H1: Main page heading</h1>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-size: 26px</li>
+            <li>Font-family: Source Sans Pro</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <h2>H2: Subheading</h2>
+          <ul>
+            <li>Font-weight: 500</li>
+            <li>Font-size: 18px</li>
+            <li>Font-family: Plus Jakarta Sans</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <p>P: Paragraph text</p>
+          <ul>
+            <li>Font-weight: 400 (regular)</li>
+            <li>Font-size: 14px</li>
+            <li>Font-family: Josefin Sans</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
   </body>
 </html>
